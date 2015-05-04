@@ -17,7 +17,7 @@ public class PropertiesReader {
         try {
             file.load(new FileInputStream(PATH));
         } catch (Exception e) {
-            System.out.println("[Erro] PropertiesReader ao ler arquivo: "+ e);
+            System.err.println("[Erro] PropertiesReader ao ler arquivo: "+ e);
         }
     }    
     
